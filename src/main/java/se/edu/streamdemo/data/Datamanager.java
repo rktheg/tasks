@@ -54,7 +54,7 @@ public class Datamanager {
         }
         // Happy path
         ArrayList<String> dataItems = (ArrayList) Files.readAllLines(dataFile.toPath(), Charset.defaultCharset());
-
+        //default charset is if its in a different language
         return dataItems;
     }
 
